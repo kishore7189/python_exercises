@@ -11,7 +11,7 @@ mysql -h $DB_HOST -u $DB_USER --password=$DB_PASS -e "CREATE DATABASE IF NOT EXI
 
 # import database schema
 echo "-- Importing schema into database: ${DB_NAME}"
-mysql -h $DB_HOST -u $DB_USER --password=$DB_PASS ${DB_NAME} < /home/theloanp/public_html/config/database/schema.sql
+mysql -h $DB_HOST -u $DB_USER --password=$DB_PASS ${DB_NAME} < /home/sitename/public_html/config/database/schema.sql
 
 # show all imported tables
 echo "-- Import tables:"

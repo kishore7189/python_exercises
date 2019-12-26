@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 #lock "~> 3.10.2"
 
-set :application, "lendingwise"
-set :repo_url, "git@github.com:chris-main/MLP.git"
+set :application, "app_name"
+set :repo_url, "git@github.com:user-name/repo-name.git"
 
 # Default branch is :master
 ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

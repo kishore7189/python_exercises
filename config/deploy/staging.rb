@@ -1,7 +1,7 @@
-server_host = "staging.lendingwise.com"
+server_host = "www.example.com"
 server_user = "ubuntu"
 deploy_dir = "/var/www/public_html"
-legacy_dir = "/home/theloanp"
+legacy_dir = "/home/sitename"
 
 set :use_sudo, false
 set :copy_cache, true
